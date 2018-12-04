@@ -2,11 +2,14 @@
 
 namespace Inheritance
 {
-    class Program
+    static class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine(12345+5432l);
+            
+            Console.ReadLine();
+
         }
     }
 }
